@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "https://pastebin.com/raw/saJFeWnG"
+          command: "curl https://pastebin.com/raw/saJFeWnG"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
